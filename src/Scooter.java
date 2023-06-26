@@ -12,7 +12,7 @@ public class Scooter extends Vehicle implements SmallVehicle {
 
     @Override
     public boolean overSpeed(int speedLimit) {
-        return getSpeed() > speedLimit;
+        return speed > speedLimit;
     }
 
     public int getMaxSpeed() {

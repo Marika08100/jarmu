@@ -11,7 +11,7 @@ public class AudiS8 extends Vehicle {
         if (laserBlocker) {
             return false;
         }
-        return getSpeed() > speedLimit;
+        return speed > speedLimit;
     }
 
     public boolean isLaserBlocker() {

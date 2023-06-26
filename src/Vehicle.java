@@ -7,9 +7,8 @@ public abstract class Vehicle {
         this.licensePlate = licensePlate;
     }
 
-    public boolean overSpeed(int speedLimit) {
-        return speed > speedLimit;
-    }
+    public abstract boolean overSpeed(int speedLimit);
+
 
     public int getSpeed() {
         return speed;
